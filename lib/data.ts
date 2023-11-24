@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import HealthMonitor from "@/public/HealthMonitor.png";
+import YoutubeClone from "@/public/YoutubeClone.png";
+import ShoeStore from "@/public/ShoeStore.jpg";
+import TaskApp from "@/public/TaskApp.png";
 
 export const links = [
   {
@@ -62,25 +63,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Health Monitor",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is my final year Reasearch and this Mobile App predict the proper exercises plan and meal Plan using scanned the blood reports & entered data.",
+    tags: ["Java", "TensorFlow", "PyCharm", "Android Studio", "Flask"],
+    imageUrl: HealthMonitor,
   },
   {
-    title: "rmtDev",
+    title: "Youtube Clone UI Project",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This is a UI UX Application which allows to watch and search Youtube videos & refer the other infomations as well.",
+    tags: ["React", "Javascript", "Rapid API", "Metirial-UI"],
+    imageUrl: YoutubeClone,
   },
   {
-    title: "Word Analytics",
+    title: "Shoe Store UI Project",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    tags: [ "Javascript", "React.js", "Tailwind CSS" ],
+    imageUrl: ShoeStore,
+  },
+  {
+    title: "Task App",
+    description:
+      "This App can Add a Task and Update & Delete it as well as when the task is done we can make it as compleated.",
+    tags: ["Javascript", "Node.js", "Express.js", "MongoDB", "CSS"],
+    imageUrl: TaskApp,
   },
 ] as const;
 
@@ -103,4 +111,5 @@ export const skillsData = [
   "MySQL",
   "Express.js",
   "Springboot",
+  "Zoho Project Manegment",
 ] as const;

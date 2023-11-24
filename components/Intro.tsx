@@ -6,11 +6,15 @@ import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
 import { HiDownload } from 'react-icons/hi'
 import Link from 'next/link';
 import { FaGithubSquare } from 'react-icons/fa';
+import { useSectionInView } from '@/lib/hooks';
+import { useActiveSectionContext } from '@/contex/active-section-context';
 
 export default function Intro() {
+    const { ref } = useSectionInView("Home", 0.5);
+    const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
-    <section  className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
-        <div className='flex items-center justify-center \'>
+    <section  ref={ref} id='home' className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <div className='flex items-center justify-center'>
             <div className='relative'>
                 <motion.div 
                     initial={{ opacity: 0, scale: 0}}
@@ -68,6 +72,10 @@ export default function Intro() {
             href="#contact"
             className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full 
                         outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+                        onClick={() => {
+                            setActiveSection("Contact");
+                            setTimeOfLastClick(Date.now());
+                          }}
         >
             Contact Me Here. <BsArrowRight className='opacity-70 group-hover:translate-x-1 transistion'/>
         </Link>
@@ -82,12 +90,14 @@ export default function Intro() {
         <a 
             className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
                         focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black'
+            href='https://www.linkedin.com/in/tharushaa17/'
         >
             <BsLinkedin/>
         </a>
         <a 
             className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]
                         focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black'
+            href='https://github.com/Tharushaa17'
         >
             <FaGithubSquare/>
         </a>
