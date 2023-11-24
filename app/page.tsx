@@ -1,6 +1,9 @@
 import About from "@/components/About";
 import Intro from "@/components/Intro";
 import SectionDevider from "@/components/Section-Devider";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Expiriance";
 
 
 export default function Home() {
@@ -9,6 +12,9 @@ export default function Home() {
       <Intro/>
       <SectionDevider/>
       <About/>
+      <Projects/>
+      <Skills/>
+      <Experience/>
     </main>
   )
 }

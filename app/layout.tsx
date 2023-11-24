@@ -1,6 +1,11 @@
 import Header from '@/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import ActiveSectionContextProvider from '@/contex/active-section-context'
+import ThemeContextProvider from '@/contex/theme-context'
+import Footer from '@/components/Footer'
+import ThemeSwitch from '@/components/Theme-Switcher'
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='!scroll-smooth'>
       <body 
         className={`${inter.className}
                    bg-gray-50 text-gray-950 relative h-[5000px]  pt-28 sm:pt-36`}
@@ -28,8 +33,16 @@ export default function RootLayout({
           className='bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] 
                       rounded-full blur-[10rem] sm:w-[68.75rem] xl:left-[-15rem] 2xl:left-[-5rem]'
         ></div>
-        <Header/>
-        {children}
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Header />
+            {children}
+            <Footer />
+
+            <Toaster position="top-right" />
+            <ThemeSwitch />
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   )
