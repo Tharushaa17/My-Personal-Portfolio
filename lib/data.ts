@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import HealthMonitor from "@/public/healthmonitor.png";
-import YoutubeClone from "@/public/youtubeclone.png";
-import ShoeStore from "@/public/shoestore.jpg";
-import TaskApp from "@/public/taskapp.png";
+import HealthMonitor from "../public/healthmonitor.png";
+import YoutubeClone from "../public/youtubeclone.png";
+import ShoeStore from "../public/shoestore.jpg";
+import TaskApp from "../public/taskapp.png";
 
 export const links = [
   {
