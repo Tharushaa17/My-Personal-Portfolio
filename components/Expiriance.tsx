@@ -3,7 +3,7 @@
 import React from "react";
 import { experiencesData } from "@/lib/data";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
-import "react-vertical-timeline-component"
+import "react-vertical-timeline-component/style.min.css";
 import SectionHeading from "./Section-Heading";
 import { useTheme } from "@/contex/theme-context";
 import { useSectionInView } from "@/lib/hooks";
