@@ -81,16 +81,17 @@ export default function Intro() {
         </Link>
         <a 
             className='bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none 
-                        focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black' 
+                        focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black dark:bg-white/10' 
             href='/Tharushaa_Samaraweera_CV.pdf' 
             download
         >
-            Download CV <HiDownload/>
+            Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a 
             className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
                         focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black'
             href='https://www.linkedin.com/in/tharushaa17/'
+            target="_blank"
         >
             <BsLinkedin/>
         </a>
@@ -98,6 +99,7 @@ export default function Intro() {
             className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]
                         focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black'
             href='https://github.com/Tharushaa17'
+            target="_blank"
         >
             <FaGithubSquare/>
         </a>
