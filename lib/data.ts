@@ -75,7 +75,7 @@ export const projectsData = [
     title: "Real Estate APP",
     description:
       "This is a modern Real Estate Listing platform. Which buyers can come and see the listed properties while the registered useres able to list a Ads on it",
-    tags: ["React", "Redux", "Nodeks", "Express.js", "Mongodb", "Firebase", "OAuth 2.0"],
+    tags: ["React", "Redux", "Node.js", "Express.js", "Mongodb", "Firebase", "O Auth 2.0"],
     imageUrl: RealEstate,
   },
   {
