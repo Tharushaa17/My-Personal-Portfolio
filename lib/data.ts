@@ -6,6 +6,7 @@ import HealthMonitor from "../public/healthmonitor.png";
 import YoutubeClone from "../public/youtubeclone.png";
 import ShoeStore from "../public/shoestore.jpg";
 import TaskApp from "../public/taskapp.png";
+import RealEstate from '../public/realestate.png';
 
 export const links = [
   {
@@ -70,6 +71,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Real Estate APP",
+    description:
+      "This is a modern Real Estate Listing platform. Which buyers can come and see the listed properties while the registered useres able to list a Ads on it",
+    tags: ["React", "Redux", "Nodeks", "Express.js", "Mongodb", "Firebase", "OAuth 2.0"],
+    imageUrl: RealEstate,
+  },
   {
     title: "Health Monitor",
     description:
