@@ -47,9 +47,9 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer",
-    location: "Business Application Services Division At SLIIT",
+    location: "Business Application Services Division - SLIIT",
     description:
-      "I am working as a fullstack developer in non Academic Staff by Devaloping in house devalopments and Maintain internal systems. using ASP.NET, ASP.NET Core, MSSQL",
+      "I am working as a fullstack developer in non Academic Staff by Devaloping in house devalopments and Maintain internal systems. using ASP.NET, ASP.NET Core, JS, MSSQL",
     icon: React.createElement(CgWorkAlt),
     date: "2024 March - Present",
   },
@@ -71,9 +71,9 @@ export const experiencesData = [
   },
   {
     title: "Freelancer",
-    location: "Upwork , Fiverr",
+    location: "Work from Home",
     description:
-      "I'm doing some small projects in React, Nodejs, MongoDB and UI as well as Graphic Designings stuff as well. and now I'm open to full-time opportunities",
+      "I'm doing short term some small projects in Javascript, React, Nodejs, MongoDB and UI as part time, especially a Web Devalopments",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
@@ -132,6 +132,7 @@ export const skillsData = [
   "TypeScript",
   "PHP",
   "Java",
+  "C#",
   "React",
   "Next.js",
   "Node.js",
@@ -144,5 +145,7 @@ export const skillsData = [
   "MySQL",
   "Express.js",
   "Springboot",
+  "ASP.NET",
+  "ASP.NET Core",
   "Zoho Project Manegment",
 ] as const;

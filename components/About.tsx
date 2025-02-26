@@ -24,25 +24,24 @@ export default function About() {
     >
         <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
-            While Pursuing a degree in{" "}
+            Iam a Graduate in{" "}
             <span className="font-medium">BSc (hons) Infomation Technology with Infomation 
             Technology Specilization </span>from Sri Lanka Institute of Information Technology (SLIIT), 
             I had passion for programming. I started coding and participate to undergraduate, 
             freelance projects and learned and devaloped my skills as a{" "}<span className="font-medium">full-
             stack devaloper</span>.{" "} Then i joined to the industry and contributed my skills to the couple 
-            of companies as a <span className="font-medium">Intern and Asscoiate Software Engineer</span>.{" "}
-            <span className="italic">My favorite part of programming</span> is theproblem-solving aspect. I 
+            of companies as a <span className="font-medium">Intern, Asscoiate Software Engineer and now as a Software Engineer</span>.{" "}
+            <span className="italic">My favorite part of programming</span> is the problem-solving aspect. I 
             <span className="underline"> love</span> the feeling of applying technical solution to the real world 
-            problems. My core stack is{" "} <span className="font-medium">React, Express.js, Node.js, and MongoDB</span>
+            problems. My core stacks are {" "} <span className="font-medium">ASP.NET, ASP.Net Core, React, Express.js, Node.js, and MongoDB, MSSQL</span>
             . I am also familiar with Laravel and Java. I am always looking to learn new technologies. I am 
-            currently looking for a{" "}<span className="font-medium">full-time position</span> as a Software
-            Engineer or Associate Software Engineer.
+            currently working as a Software Engineer.
         </p>
 
         <p>
             <span className="italic">When I'm not coding</span>, I enjoy playing chess, watching movies, and 
             playing with my dog. I also enjoy{" "}<span className="font-medium"> learning new things</span>. 
-            I am currently learning about{" "}<span className="font-medium"> history</span>.
+            I am currently learning about{" "}<span className="font-medium"> investing</span>.
         </p>
     </motion.section>
   )
