@@ -6,7 +6,7 @@ import HealthMonitor from "../public/healthmonitor.png";
 import YoutubeClone from "../public/youtubeclone.png";
 import ShoeStore from "../public/shoestore.jpg";
 import TaskApp from "../public/taskapp.png";
-import RealEstate from '../public/realestate.png';
+import RealEstate from "../public/realestate.png";
 
 export const links = [
   {
@@ -37,7 +37,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "BSc (hons) Infomation Technology Specilize in Infomation Technology",
+    title:
+      "BSc (hons) Infomation Technology Specilize in Infomation Technology",
     location: "Sri Lanka Institute of Information Technology",
     description:
       "I graduated after 4 years of studying  during that time i have attempt some undergraduate projects and a Reserch as well.",
@@ -45,12 +46,20 @@ export const experiencesData = [
     date: "2018 - 2022",
   },
   {
+    title: "Software Engineer",
+    location: "Business Application Services Division At SLIIT",
+    description:
+      "I am working as a fullstack developer in non Academic Staff by Devaloping in house devalopments and Maintain internal systems. using ASP.NET, ASP.NET Core, MSSQL",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 March - Present",
+  },
+  {
     title: "Associate Software Engineer",
     location: "Konekt Holdings (Pvt) Ltd",
     description:
       "I worked as a fullstack developer for this company and i have  participated for couple projects.in React Nodejs MongoDB I also upskilled as the full stack devalooper.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 June - 2023 January",
+    date: "2022 June - 2023 July",
   },
   {
     title: "Intern Software Engineer",
@@ -75,7 +84,15 @@ export const projectsData = [
     title: "Real Estate APP",
     description:
       "This is a modern Real Estate Listing platform. Which buyers can come and see the listed properties while the registered useres able to list a Ads on it",
-    tags: ["React", "Redux", "Node.js", "Express.js", "Mongodb", "Firebase", "O Auth 2.0"],
+    tags: [
+      "React",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "Mongodb",
+      "Firebase",
+      "O Auth 2.0",
+    ],
     imageUrl: RealEstate,
   },
   {
@@ -96,7 +113,7 @@ export const projectsData = [
     title: "Shoe Store UI Project",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: [ "Javascript", "React.js", "Tailwind CSS" ],
+    tags: ["Javascript", "React.js", "Tailwind CSS"],
     imageUrl: ShoeStore,
   },
   {
